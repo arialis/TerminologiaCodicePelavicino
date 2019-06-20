@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<!DOCTYPE TEI SYSTEM 'tei_all.dtd'>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Terminologia sul codice Pelavicino</title>
+                <title type="sub">Edizione Digitale</title>
+                <respStmt>
+                    <resp>Edizione critica di:</resp>
+                    <name>Enrica Salvatori</name>
+                    <name>Edilio Riccardini</name>
+                    <name>Franco Bonatti</name>
+                    <name>Laura Balletto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codifica di</resp>
+                    <name>Arianna Lisi</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <date></date>
+            </publicationStmt>
+            <sourceDesc>
+                <p></p>
+            </sourceDesc>
+        </fileDesc>   
+    </teiHeader>
+
+    <text>
+        <front></front>
+        <body>
+            <div>
+            <entryFree type="term" xml:id="cervatina"> 
+                    <form>
+                        <orth type="main">Cervatina</orth>
+                        <orth type="variant"><ref target="#119-CII">cervatinas</ref></orth>
+                        <orth type="variant"><ref target="#157-CXL">cervatinis</ref></orth>
+                    </form>
+                    <!-- Termine attuale -->
+                    <form> 
+                        <usg type="time">current</usg>
+                        <orth xml:lang="it">selvaggina</orth>
+                    </form> 
+                    <etym>
+                        Il termine dialettale <mentioned>cervascini</mentioned>, ‘selvaggini’, 
+                        viene dal <lang>lat.</lang> <mentioned>silvaticus</mentioned> 
+                        (<lang>lat.</lang> <mentioned xml:id="silva">silva</mentioned> 
+                        + il suff. <oRef target="#silva" type="suf">-aticus</oRef>) 
+                        che in italiano rende <gloss type="translation">selvareccio, 
+                        relativo alla selva</gloss>, a cui è affisso il diminutivo 
+                        <oRef target="#cervascini" type="suf" ana="plur">-ini</oRef> 
+                        a volerne significare le piccole dimensioni. 
+                    </etym>
+                    <!-- Definizione del termine -->
+                    <def>
+                        <gloss type="definition">In ambito ligure la <mentioned>cervacina</mentioned> o 
+                        <oRef target="#cervatina"/> è il palo da viti cui si attacca l'estremità dei tralci.</gloss> 
+                    </def>
+                    <!-- Descrizione del termine -->
+                    <note type="desc"> 
+                        Il vocabolo si è mantenuto nell’uso dialettale dell’entroterra 
+                        per indicare i polloni che crescono attorno al tronco 
+                        degli alberi non domestici. Si tratta di giovani rami longilinei 
+                        non ancora innestati, sviluppatisi direttamente dalle radici, 
+                        specialmente da quelle dei ceppi del castagno; essi sono adatti 
+                        per la pratica dell’innesto delle barbe per ottenere castagne 
+                        del tipo domestico. In agricoltura se ne fanno vari usi per la 
+                        facile reperibilità e la lunga durata nel tempo. 
+                    </note>
+                    <!-- Riferimenti a documenti dove si trova il termine -->
+                    <list type="concordances">
+                            <item>
+                                <oRef target="#cervatina"/> 
+                                    <cit>
+                                        <quote></quote>
+                                        <bibl><ptr target="#"/>, <citedRange target=""></citedRange> </bibl>
+                                    </cit>
+                            </item>
+                        </list>
+                        <!-- Riferimenti bibliografici -->
+                        <listBibl>
+                            <bibl xml:id="rossi">
+                                <author>Rossi</author>
+                                <date>1896</date>
+                            </bibl>
+                            <bibl xml:id="aprosio">
+                                <author>Aprosio</author>
+                                <date>2003</date>
+                                <citedRange unit="page">257</citedRange>
+                            </bibl>
+                        </listBibl>
+                </entryFree>
+            </div>
+        </body>
+        
+
+    </text>
+</TEI>
