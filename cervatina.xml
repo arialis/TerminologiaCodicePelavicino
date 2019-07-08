@@ -35,13 +35,15 @@
         <body>
             <div>
             <entryFree type="term" xml:id="cervatina"> 
-                    <form>
-                        <orth type="main">Cervatina</orth>
-                        <orth type="variant"><ref target="#119-CII">cervatinas</ref></orth>
-                        <orth type="variant"><ref target="#157-CXL">cervatinis</ref></orth>
+                    <form type="lemma">
+                        <orth>Cervatina</orth>
+                    </form>
+                    <form type="variant">
+                        <orth><ref target="#119-CII">cervatinas</ref></orth>
+                        <orth><ref target="#157-CXL">cervatinis</ref></orth>
                     </form>
                     <!-- Termine attuale -->
-                    <form> 
+                    <form type="current"> 
                         <usg type="time">current</usg>
                         <orth xml:lang="it">selvaggina</orth>
                     </form> 
